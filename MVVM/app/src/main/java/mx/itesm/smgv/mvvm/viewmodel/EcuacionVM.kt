@@ -4,6 +4,10 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import mx.itesm.smgv.mvvm.model.Ecuacion
 
+/**
+ * @author Sergio Gonzalez
+ * Clase que comunica el view con el model
+ */
 class EcuacionVM  : ViewModel() {
     //Modelo
     private  val modelo = Ecuacion()

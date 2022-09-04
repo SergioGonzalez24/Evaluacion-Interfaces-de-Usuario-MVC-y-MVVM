@@ -2,6 +2,10 @@ package mx.itesm.smgv.mvvm.model
 
 import androidx.lifecycle.ViewModel
 
+/**
+ * @author Sergio Gonzalez
+ * Se comprobaran si los valores son aceptados para  una ecucion de este estilo
+ */
 class Ecuacion : ViewModel() {
 
     var x1:String = ""
